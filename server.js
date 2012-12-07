@@ -1,10 +1,5 @@
-var connect = require('connect'),
-    http = require('http');
+var http = require('http');
 var fs = require('fs');
-
-//connect()
-    // .use(connect.static('public'))
-    // .listen(3000);
 
 
 http.createServer(function (req, resp) {
